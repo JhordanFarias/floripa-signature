@@ -991,8 +991,6 @@ select option{
     height:16px;
 }
 
- @media (max-width:768px){
-
     .hero,
     .form-hero{
         min-height:100vh;
