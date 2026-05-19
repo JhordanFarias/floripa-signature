@@ -502,15 +502,7 @@ footer{
 
 
 .mobile-hero{
-    display:block;
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    z-index:-2;
-    
+    display:none;
 }
 
 /* RESPONSIVIDADE */
@@ -1002,52 +994,14 @@ select option{
     width:16px;
     height:16px;
 }
-/* =========================
-   MOBILE RESPONSIVE
-========================= */
-/* =========================================
-   MOBILE FINAL CLEAN
-========================================= */
 
-@media (max-width:768px){
-
-    html,
-    body{
-        overflow-x:hidden;
-        width:100%;
-    }
-
-    /* NAV */
-
-    nav{
-        padding:24px 20px;
-        flex-direction:column;
-        gap:20px;
-        align-items:flex-start;
-    }
-
-    .logo{
-        font-size:1.4rem;
-        letter-spacing:2px;
-    }
-
-    nav ul{
-        flex-wrap:wrap;
-        gap:12px;
-        margin-left:0;
-    }
-
-    nav a{
-        font-size:.72rem;
-        letter-spacing:1px;
-    }
-
-    /* HERO */
+ @media (max-width:768px){
 
     .hero,
     .form-hero{
         min-height:100vh;
         overflow:hidden;
+        position:relative;
     }
 
     .hero-video{
@@ -1062,208 +1016,26 @@ select option{
         height:100%;
         object-fit:cover;
         z-index:-2;
+        filter:brightness(.55) saturate(.9);
     }
 
     .hero-content,
     .form-hero-content{
-        padding:160px 24px 80px;
-        text-align:left;
+
         transform:none;
+
+        padding:120px 24px 60px;
+
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+
+        min-height:100vh;
     }
 
     h1{
-        font-size:clamp(3rem, 13vw, 4.5rem) !important;
-        line-height:1 !important;
-        letter-spacing:-2px;
+        font-size:clamp(4rem, 15vw, 5.2rem);
     }
-
-    h2{
-        font-size:clamp(2rem, 9vw, 3rem) !important;
-        line-height:1.1;
-    }
-
-    .subtitle,
-    p{
-        font-size:1rem !important;
-        line-height:1.8 !important;
-    }
-
-    .btn{
-        width:100%;
-        text-align:center;
-    }
-
-    /* SECTIONS */
-
-    .section{
-        padding:100px 24px;
-    }
-
-    .two-columns{
-        grid-template-columns:1fr;
-        gap:40px;
-    }
-
-    /* PROCESS */
-
-    .process-section{
-        padding:120px 24px;
-    }
-
-    .process-grid{
-        grid-template-columns:1fr !important;
-        gap:80px;
-    }
-
-    .process-item{
-        flex-direction:column;
-        gap:20px;
-    }
-
-    .process-left{
-        align-items:center;
-    }
-
-    .process-line{
-        display:none;
-    }
-
-    .process-number{
-        font-size:4rem;
-        min-width:auto;
-    }
-
-    .process-item h3{
-        font-size:2.2rem;
-    }
-
-    .process-content p{
-        font-size:1rem;
-        line-height:1.8;
-    }
-
-    /* SERVICES */
-
-    .services-grid{
-        grid-template-columns:1fr;
-    }
-
-    /* CONTACT */
-
-    .contact-box{
-        padding:30px 20px;
-    }
-
-    /* FORM */
-
-    .planning-form-section{
-        padding:80px 24px;
-    }
-
-    .checkbox-group{
-        flex-direction:column;
-    }
-
-    .checkbox-item{
-        width:100%;
-    }
-
-}
-
-/* =========================================
-   MOBILE PREMIUM FIX
-========================================= */
-
-@media (max-width:768px){
-
-    html,
-    body{
-        overflow-x:hidden;
-        width:100%;
-    }
-
-    body{
-        position:relative;
-    }
-
-    /* NAVBAR */
-
-    nav{
-    padding:24px 20px;
-
-    display:flex;
-
-    flex-direction:row;
-
-    justify-content:space-between;
-
-    align-items:center;
-}
-
-    .logo{
-        font-size:1.2rem;
-        letter-spacing:2px;
-    }
-
-   nav ul{
-    display:none;
-}
-
-    nav a{
-        font-size:.7rem;
-        letter-spacing:1px;
-    }
-
-    /* HERO */
-
-    .hero,
-    .form-hero{
-        min-height:100vh;
-        overflow:hidden;
-    }
-
-    .hero-video{
-        display:none;
-    }
-
-.mobile-hero{
-    display:block;
-    position:absolute;
-    inset:0;
-
-    width:100%;
-    height:100%;
-
-    object-fit:cover;
-
-    object-position:center;
-
-    z-index:-2;
-
-    filter:
-    brightness(.55)
-    saturate(.9);
-}
-
-   .hero-content,
-.form-hero-content{
-
-    transform:none;
-
-    padding:
-    120px
-    24px
-    60px;
-
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-
-    min-height:100vh;
-}
-
-   h1{
-    font-size:clamp(4rem, 15vw, 5.2rem);
 
     h2{
         font-size:2.3rem;
@@ -1282,8 +1054,6 @@ select option{
         text-align:center;
     }
 
-    /* SECTIONS */
-
     .section{
         padding:100px 24px;
     }
@@ -1292,8 +1062,6 @@ select option{
         grid-template-columns:1fr;
         gap:40px;
     }
-
-    /* IMAGE BREAK */
 
     .image-break{
         min-height:65vh;
@@ -1314,61 +1082,17 @@ select option{
         padding:0 20px;
     }
 
-    /* PROCESS */
-
     .process-section{
         padding:120px 24px;
     }
-
-    .process-grid{
-        grid-template-columns:1fr;
-        gap:70px;
-    }
-
-    .process-item{
-        flex-direction:column;
-        gap:20px;
-    }
-
-    .process-left{
-        align-items:flex-start;
-    }
-
-    .process-line{
-        display:none;
-    }
-
-    .process-number{
-        font-size:4rem;
-        min-width:auto;
-    }
-
-    .process-item h3{
-        font-size:2rem;
-    }
-
-    .process-content p{
-        font-size:1rem;
-        line-height:1.8;
-    }
-
-    .process-intro{
-        font-size:1rem;
-    }
-
-    /* SERVICES */
 
     .services-grid{
         grid-template-columns:1fr;
     }
 
-    /* CONTACT */
-
     .contact-box{
         padding:30px 20px;
     }
-
-    /* FORM */
 
     .planning-form-section{
         padding:80px 24px;
@@ -1382,10 +1106,11 @@ select option{
         width:100%;
     }
 
-    .form-group input,
-    .form-group select,
-    .form-group textarea{
-        padding:18px;
+    nav ul{
+        display:none;
     }
 
+    .logo{
+        font-size:1.2rem;
+    }
 }
