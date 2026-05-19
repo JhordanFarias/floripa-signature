@@ -505,22 +505,7 @@ footer{
 
 .mobile-hero{
     display:none;
-}
-
-
-
-.process-grid{
-
-    grid-template-columns:1fr;
-    gap:100px;
-
-    
-}
-
-.process-number{
-
-    font-size:5rem;
-}   
+}  
 
 @keyframes fadeText{
 
@@ -1012,6 +997,7 @@ select option{
         z-index:-2;
         filter:brightness(.55) saturate(.9);
     }
+@media (max-width:768px){
 
     .hero-content,
     .form-hero-content{
@@ -1107,8 +1093,11 @@ select option{
     .logo{
         font-size:1.2rem;
     }
-}
 
+    .logo{
+    font-size:1.2rem;
+}
+}
 /* deploy vercel */
 
 /* =========================
@@ -1233,13 +1222,6 @@ nav a{
 .process-content p{
     font-size:1rem;
     line-height:1.8;
-}
-
-}
-@media (max-width:768px){
-
-body{
-    background:red !important;
 }
 
 }
