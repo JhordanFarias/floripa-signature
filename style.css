@@ -802,11 +802,11 @@ footer{
 
     align-items:center;
 
-    justify-content:center;
+    justify-content:flex-start;
 
     gap:14px;
 
-    flex-wrap:wrap;
+    flex-wrap:nowrap;
 }
 
 .process-pipe{
@@ -1187,9 +1187,11 @@ select option{
 
     padding:18px 24px 24px;
 
-    flex-direction:column;
+    display:flex;
 
-    gap:26px;
+    flex-direction:column-reverse;
+
+    gap:18px;
 
     align-items:flex-start;
 
@@ -1364,7 +1366,15 @@ select option{
    }
 
    nav a{
+
     color:#111 !important;
+
+    text-decoration:none;
+
+    font-size:.95rem;
+
+    letter-spacing:.5px;
+}
 
    }
 
