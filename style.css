@@ -926,18 +926,7 @@ select option{
     height:16px;
 }
 
-    .hero,
-    .form-hero{
-        min-height:100vh;
-        overflow:hidden;
-        position:relative;
-    }
 
-    .hero-video{
-        display:block;
-    }
-
-    
 @media (max-width:768px){
 
     nav{
