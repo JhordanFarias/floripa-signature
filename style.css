@@ -935,6 +935,10 @@ select option{
         gap:20px;
         align-items:flex-start;
         width:100%;
+
+
+        position:relative;
+        z-index:10;
     }
 
     .logo{
@@ -959,7 +963,7 @@ select option{
 
     .hero-content{
 
-        padding:140px 24px 80px;
+        padding:120px 24px 100px;
         max-width:100%;
         transform:none;
         position:relative;
@@ -973,16 +977,26 @@ select option{
         word-break:break-word;
     }
 
-    .subtitle{
-        margin-top:32px;
-        font-size:1rem;
-        line-height:1.7;
+   .subtitle{
+    margin-top:40px;
+    font-size:1rem;
+    line-height:1.8;
+    max-width:90%;
+
     }
 
     .btn{
-        width:100%;
-        text-align:center;
-        padding:18px 24px;
+    width:auto;
+    min-width:240px;
+
+    text-align:center;
+
+    padding:16px 28px;
+
+    font-size:1rem;
+
+    margin-top:36px;
+
     }
 
     .section{
