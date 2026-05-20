@@ -186,7 +186,7 @@ h1{
     box-shadow:0 10px 30px rgba(0,0,0,0.25);
 }
 .section{
-    padding:160px 8%;
+    padding:100px 8%;
 }
 
 .dark{
@@ -498,6 +498,9 @@ z-index:2;
 
 .gold-section{
     background:#000;
+
+    padding-top:20px;
+    padding-bottom:40px;
 }
 
 
@@ -535,13 +538,55 @@ z-index:2;
     text-align:center;
 }
 
-.testimonial{
-    text-align:center;
+/* SERVICES EDITORIAL */
+
+.services-editorial{
+
+    margin-top:80px;
+
+    display:flex;
+    flex-direction:column;
+
+    gap:28px;
+}
+
+.services-editorial h3{
+
+    font-family:'Cormorant Garamond', serif;
+
+    font-size:clamp(2.4rem, 5vw, 4rem);
+
+    font-weight:500;
+
+    line-height:1;
+
+    color:#f2f2f2;
+
+    opacity:.88;
+
+    transition:.4s ease;
+
+    cursor:pointer;
+
+    border-bottom:1px solid rgba(212,175,55,.12);
+
+    padding-bottom:18px;
+}
+
+.services-editorial h3:hover{
+
+    color:#d6b36a;
+
+    transform:translateX(12px);
+
+    opacity:1;
 }
 
 .testimonial{
-    padding-top:40px;
+    text-align:center;
+     padding-top:40px;
 }
+
 
 blockquote{
 
@@ -555,7 +600,10 @@ blockquote{
 .contact-section{
 
     background:#000;
+
     text-align:center;
+
+    padding-top:60px;
 }
 
 .contact-box{
@@ -612,7 +660,7 @@ footer{
 
 .process-section{
 
-    padding:80px 0 20px;
+    padding:60px 0 15px;
     background:#000;
     position:relative;
     overflow:hidden;
