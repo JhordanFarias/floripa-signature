@@ -77,15 +77,14 @@ nav{
 
 nav ul{
     display:flex;
-    gap:30px;
-    list-style:none;
+    flex-direction:row;
+    flex-wrap:wrap;
+    gap:14px;
 
-    margin-left:auto;
+    width:100%;
 
-
-    text-transform:uppercase;
-    font-size:0.92rem;
-    letter-spacing:2.5px;
+    justify-content:flex-start;
+    align-items:center;
 }
 
 nav a{
@@ -960,7 +959,7 @@ select option{
 
     .hero-content{
 
-        padding:180px 24px 80px;
+        padding:140px 24px 80px;
         max-width:100%;
         transform:none;
         position:relative;
@@ -968,9 +967,10 @@ select option{
     }
 
     h1{
-        font-size:4rem;
+        font-size:3.2rem;
         line-height:.95;
         letter-spacing:-2px;
+        word-break:break-word;
     }
 
     .subtitle{
@@ -1048,6 +1048,24 @@ select option{
 
     .back-button{
     display:flex !important;
+
+    }
+
+    .hero{
+    min-height:100svh;
+
+    }
+
+    .hero-video{
+    display:block;
+    object-position:center;
+   
+    }
+
+    .hero-content{
+    position:relative;
+    z-index:2;
+    
 }
 
 }
