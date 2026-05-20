@@ -1228,14 +1228,14 @@ select option{
 
     .process-grid{
         grid-template-columns:1fr;
-        gap:50px;
+        gap:18px;
     }
 
     .process-item{
         flex-direction:column;
         gap:24px;
         border-top:1px solid rgba(212,175,55,.18);
-        padding-top:28px;
+        padding-top:12px;
 
     }
 
@@ -1314,8 +1314,9 @@ select option{
 
    }
 
-   #services{
-    padding-bottom:10px;
+ #services{
+    padding-top:0;
+    padding-bottom:0;
 }
 
 .services-editorial{
@@ -1323,16 +1324,16 @@ select option{
 }
 
 .services-editorial h3{
-    padding:6px 0;
+    padding:0;
 }
 
 .testimonial.section{
     padding-top:0 !important;
-    margin-top:-30px;
+    margin-top:-90px;
 }
 
 .contact-section{
-    margin-top:-40px;
+    margin-top:-120px;
 }
 
 blockquote{
