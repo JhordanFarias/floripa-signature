@@ -1314,6 +1314,32 @@ select option{
 
    }
 
+   #services{
+    padding-bottom:10px;
+}
+
+.services-editorial{
+    gap:0;
+}
+
+.services-editorial h3{
+    padding:6px 0;
+}
+
+.testimonial.section{
+    padding-top:0 !important;
+    margin-top:-30px;
+}
+
+.contact-section{
+    margin-top:-40px;
+}
+
+blockquote{
+    font-size:2rem;
+    line-height:1.5;
+}
+
 }
 
 .testimonial.section{
