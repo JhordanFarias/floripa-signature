@@ -936,20 +936,21 @@ select option{
         align-items:flex-start;
     }
 
-    .logo{
-        font-size:1.1rem;
-        letter-spacing:2px;
+ .logo{
+    font-size:.9rem;
+    letter-spacing:1px;
+    max-width:160px;
+    line-height:1.4;
+
     }
 
-    nav ul{
-        gap:14px;
-        flex-wrap:wrap;
-        font-size:.7rem;
-        letter-spacing:1px;
+   nav ul{
+    display:none;
     }
 
     .hero-content{
-        padding:140px 24px 80px;
+        
+        padding:180px 24px 80px;
         max-width:100%;
         transform:none;
     }
