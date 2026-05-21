@@ -1566,10 +1566,6 @@ select option{
     margin-top:-90px;
 }
 
-.contact-section{
-    margin-top:-220px;
-}
-
 blockquote{
     font-size:2rem;
     line-height:1.5;
@@ -1600,7 +1596,7 @@ blockquote{
 
     align-items:center;
 
-    padding:28px 24px 10px;
+    padding:8px 24px 8px;
 
     background:#000;
 }
@@ -1626,7 +1622,7 @@ blockquote{
 
 .contact-section{
 
-    margin-top:-200spx;
+    margin-top:-120px;
 }
 
 }
