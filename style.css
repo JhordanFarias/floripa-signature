@@ -43,6 +43,8 @@ body{
 
     object-fit:cover;
 
+    will-change:transform;
+
     display:block;
 
     z-index:0;
