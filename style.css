@@ -1565,17 +1565,19 @@ select option{
 blockquote{
     font-size:2rem;
     line-height:1.5;
+    margin-bottom:34px;
+
 }
 
 
 .testimonial.section{
-    padding-top:0;
-    padding-bottom:0px;
+    padding-top:55;
+    padding-bottom:10px;
 }
 
 .testimonial{
 
-    margin-top:-160px;
+    margin-top:0x;
 }
 
 /* FINAL CTA MOBILE */
@@ -1592,7 +1594,7 @@ blockquote{
 
     align-items:center;
 
-    padding:20px 24px 0px;
+    padding:8px 24px 35px;
 
 
     background:#000;
@@ -1623,8 +1625,46 @@ blockquote{
 }
 
 .image-break{
-    min-height:52vh;
+    min-height:58vh;
     margin-bottom:-20px;
+
+    background-image:
+    linear-gradient(
+        to bottom,
+        rgba(0,0,0,1) 0%,
+        rgba(0,0,0,.86) 12%,
+        rgba(0,0,0,.55) 28%,
+        rgba(0,0,0,.24) 45%,
+        rgba(0,0,0,.24) 62%,
+        rgba(0,0,0,.55) 80%,
+        rgba(0,0,0,.88) 93%,
+        rgba(0,0,0,1) 100%
+    ),
+    url("images/lagoa-hero.jpg");
+}
+
+.image-break::before{
+    height:260px;
+
+    background:linear-gradient(
+        to bottom,
+        #000 0%,
+        rgba(0,0,0,.82) 35%,
+        rgba(0,0,0,.35) 70%,
+        rgba(0,0,0,0) 100%
+    );
+}
+
+.image-break::after{
+    height:300px;
+
+    background:linear-gradient(
+        to top,
+        #000 0%,
+        rgba(0,0,0,.82) 35%,
+        rgba(0,0,0,.35) 70%,
+        rgba(0,0,0,0) 100%
+    );
 }
 
 .overlay h2{
