@@ -581,10 +581,12 @@ z-index:2;
 }
 
 .gold-section{
+
     background:#000;
 
-    padding-top:20px;
-    padding-bottom:40px;
+    padding-top:80px;
+
+    padding-bottom:120px;
 }
 
 
@@ -632,13 +634,13 @@ z-index:2;
 
     color:#f2f2f2;
 
-    opacity:.92;
+    opacity:.82;
 
     transition:.4s ease;
 
     text-align:center;
 
-    padding:10px 0;
+    padding:22px 0;
 
     border-top:1px solid rgba(212,175,55,.12);
 }
