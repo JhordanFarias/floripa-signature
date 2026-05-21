@@ -1590,7 +1590,19 @@ blockquote{
 
 .final-cta{
 
-    padding:90px 24px 40px;
+    position:relative;
+
+    z-index:20;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:10px 24px 0;
+
+    background:#000;
 }
 
 .final-cta-button{
@@ -1604,6 +1616,12 @@ blockquote{
     font-size:.92rem;
 
     text-align:center;
+
+     position:relative;
+
+    z-index:25;
+
+    display:inline-flex;
 }
 
 .contact-section{
