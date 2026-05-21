@@ -741,15 +741,23 @@ blockquote{
     color:#d6b36a;
 }
 
-.contact-section{
+.contact-section h2{
 
-    background:#000;
+    font-size:clamp(3rem, 5vw, 5.2rem);
 
-    text-align:center;
+    line-height:1.05;
 
-    padding-top:0;
+    max-width:1100px;
 
-    padding-bottom:10px;
+    margin:0 auto 40px;
+
+    font-family:'Cormorant Garamond', serif;
+
+    color:#c6a46a;
+
+    letter-spacing:-0.02em;
+
+    text-wrap:balance;
 }
 
 .contact-box{
