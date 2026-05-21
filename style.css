@@ -1575,7 +1575,7 @@ blockquote{
 
 .testimonial{
 
-    margin-top:0px;
+    margin-top:80px;
 }
 
 /* FINAL CTA MOBILE */
@@ -1618,7 +1618,7 @@ blockquote{
 }
 
 .contact-section{
-s
+
     margin-top:0px;
 }
 
@@ -1628,7 +1628,7 @@ s
 }
 
 .overlay h2{
-    min-height:auto;
+    min-height:55vh;
     padding:90px 24px 40px;
 }
 
