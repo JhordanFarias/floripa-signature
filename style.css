@@ -1561,10 +1561,6 @@ select option{
     padding:14px 0;
 }
 
-.testimonial.section{
-    padding-top:0 !important;
-    margin-top:-90px;
-}
 
 blockquote{
     font-size:2rem;
@@ -1579,7 +1575,7 @@ blockquote{
 
 .testimonial{
 
-    margin-top:-40px;
+    margin-top:40px;
 }
 
 /* FINAL CTA MOBILE */
@@ -1596,7 +1592,8 @@ blockquote{
 
     align-items:center;
 
-    padding:40px 24px 30px;
+    padding:26px 24px 26px;
+
 
     background:#000;
 }
