@@ -105,7 +105,7 @@ nav{
 
     align-items:center;
 
-    padding:38px 70px;
+    padding:42px 90px;
 
     position:relative;
 
@@ -117,7 +117,7 @@ nav{
     
     font-family:'Playfair Display', serif;
      font-size:1.8rem;
-    letter-spacing:5px;
+    letter-spacing:3px;
     font-weight:500;
     margin-top:18px;
 
@@ -125,13 +125,15 @@ nav{
 
     text-shadow:
     0 2px 14px rgba(0,0,0,.35);
+
+    white-space:nowrap;
 }
 
 nav ul{
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
-    gap:14px;
+    gap:34px;
 
     width:100%;
 
@@ -147,7 +149,9 @@ nav a{
 
     text-decoration:none;
 
-    font-size:.95rem;
+    font-size:1.05rem;
+
+    font-weight:600;
 
     letter-spacing:.5px;
 
