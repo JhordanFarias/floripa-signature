@@ -1417,10 +1417,15 @@ select option{
 }
 
    .subtitle{
-    margin-top:40px;
+    margin-top:42px;
     font-size:1rem;
     line-height:1.8;
     max-width:90%;
+
+    color:#d6b36a;
+
+    text-shadow:
+    0 2px 10px rgba(0,0,0,.28)
 
     }
 
@@ -1580,7 +1585,7 @@ blockquote{
 
 .final-cta{
 
-    padding:10px 24px 0;
+    padding:55px 24px 10px;
 }
 
 .final-cta-button{
@@ -1598,7 +1603,7 @@ blockquote{
 
 .contact-section{
 
-    margin-top:-90px;
+    margin-top:-180px;
 }
 
 }
