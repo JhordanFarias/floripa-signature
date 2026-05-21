@@ -1600,7 +1600,7 @@ blockquote{
 
     align-items:center;
 
-    padding:80px 24px 80px;
+    padding:28px 24px 10px;
 
     background:#000;
 }
@@ -1626,7 +1626,7 @@ blockquote{
 
 .contact-section{
 
-    margin-top:-60px;
+    margin-top:-200spx;
 }
 
 }
