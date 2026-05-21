@@ -1575,7 +1575,7 @@ blockquote{
 
 .testimonial{
 
-    margin-top:25px;
+    margin-top:-120px;
 }
 
 /* FINAL CTA MOBILE */
@@ -1592,7 +1592,7 @@ blockquote{
 
     align-items:center;
 
-    padding:22px 24px 10px;
+    padding:20px 24px 0px;
 
 
     background:#000;
