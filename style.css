@@ -868,6 +868,16 @@ footer{
     opacity:.7;
 }
 
+.footer-link{
+    color:#c6a46a;
+    text-decoration:none;
+    transition:.3s ease;
+}
+
+.footer-link:hover{
+    opacity:.75;
+}
+
 
 /* RESPONSIVIDADE */
 
