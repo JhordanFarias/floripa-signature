@@ -885,6 +885,10 @@ footer p{
     opacity:.75;
 }
 
+.contact-section .container {
+    padding-top: 40px;
+}
+
 
 /* RESPONSIVIDADE */
 
@@ -1702,4 +1706,11 @@ blockquote{
     padding-bottom:60px;
 }
 
+#contact .container {
+    padding-top: 40px !important;
+}
+
+.testimonial .container{
+    padding-top:80px !important;
+}
 }
